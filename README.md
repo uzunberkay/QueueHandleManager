@@ -15,6 +15,10 @@ Bu proje aşağıdaki dosyalardan oluşur:
 - **`Queue.h`**: Kuyruk işlemleri için gerekli veri yapısı tanımları ve fonksiyon prototiplerini içerir.
 - **`Queue.c`**: Kuyruk işlemlerinin (enqueue, dequeue, display vb.) uygulamasını içerir.
 
+## Kullanım Notları
+- Her kuyruk **`CreateQueue()`** fonksiyonu ile oluşturulmalıdır.
+- Kuyruk artık kullanılmayacaksa, belleğin doğru bir şekilde yönetilmesi için mutlaka **`destroyQueue()`** fonksiyonu çağrılmalıdır.
+- Eğer **`destroyQueue()`** fonksiyonu çağrılmazsa, dinamik bellek sızıntısı (memory leak) oluşabilir.
 
 ### Örnek Çıktı
 
