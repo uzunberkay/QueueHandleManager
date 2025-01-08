@@ -33,7 +33,7 @@ PUBLIC QueueHandle CreateQueue(void)
 	handle->size = 0;
 	return handle;
 }
-PUBLIC void destroyList(QueueHandle handle)
+PUBLIC void destroyQueue(QueueHandle handle)
 {
 	make_empty(handle);	
 	free(handle);

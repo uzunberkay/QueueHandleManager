@@ -11,7 +11,7 @@ typedef struct List* QueueHandle;
 
 
 PUBLIC QueueHandle CreateQueue(void);
-PUBLIC void destroyList(QueueHandle handle);
+PUBLIC void destroyQueue(QueueHandle handle);
 PUBLIC void enqueue(QueueHandle handle, int data);
 PUBLIC void display(QueueHandle handle);
 PUBLIC int dequeue(QueueHandle handle);
