@@ -35,8 +35,8 @@ int main()
     printf("Queue 2 after enqueue operations:\n");
     display(queue2);
 
-    destroyList(queue1);
-    destroyList(queue2);
+    destroyQueue(queue1);
+    destroyQueue(queue2);
 
     printf("\nAll queues have been destroyed. Exiting program.\n");
 
