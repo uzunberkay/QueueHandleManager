@@ -17,19 +17,6 @@ Bu proje aşağıdaki dosyalardan oluşur:
 
 
 ### Örnek Çıktı
-Queue 1: Adding random elements...
-Enqueued 78 to Queue 1
-Enqueued 45 to Queue 1
-Enqueued 12 to Queue 1
-Enqueued 89 to Queue 1
-Enqueued 34 to Queue 1
-Enqueued 92 to Queue 1
-Enqueued 56 to Queue 1
-Enqueued 19 to Queue 1
-Enqueued 83 to Queue 1
-Enqueued 61 to Queue 1
-
-### Örnek Çıktı
 
 Queue 1: Adding random elements...  
 Enqueued <span style="color:blue">78</span> to Queue 1  
